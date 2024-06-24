@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Slider</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <main class="w-screen h-screen flex justify-center items-center">
+      <div class="slider flex gap-4">
+        <div class="slider-wrapper flex">
+          <div class="slider-item">
+            <img src="1.jpg" class="object-cover object-center w-full h-full" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="2.jpg" class="object-cover object-center w-full h-full" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="3.jpg" class="object-cover object-center w-full h-full" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="4.jpg" class="object-cover object-center w-full h-full" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="5.jpg" class="object-cover object-center w-full h-full" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="6.jpg" class="object-cover object-center w-full h-full" alt="">
+          </div>
+          <div class="slider-item">
+            <img src="7.jpg" class="object-cover object-center w-full h-full" alt="">
+          </div>
+        </div>
+        <button id="slider-prev"><span class="material-icons">
+          arrow_circle_left
+          </span></button>
+        <button id="slider-next"><span class="material-icons">
+          arrow_circle_right
+          </span></button>
+      </div>
+    </main>
+
+    <script src="scripts/jquery-3.7.1.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
